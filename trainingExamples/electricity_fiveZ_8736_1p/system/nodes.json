@@ -128,20 +128,64 @@
             ]
         },
         {
-            "type": "Coal",
             "global_data": {
                 "time_interval": "Coal"
             },
             "instance_data": [
                 {
-                    "id": "coal_source",
-                    "price": [
-                        16.000
-                    ]
+                    "price": {
+                        "timeseries": {
+                            "header": "NR_Coal",
+                            "path": "system/fuel_prices.csv"
+                        }
+                    },
+                    "location": "NR",
+                    "id": "NR_Coal"
+                },
+				{
+                    "price": {
+                        "timeseries": {
+                            "header": "NER_Coal",
+                            "path": "system/fuel_prices.csv"
+                        }
+                    },
+                    "location": "NER",
+                    "id": "NER_Coal"
+                },
+                {
+                    "price": {
+                        "timeseries": {
+                            "header": "SR_Coal",
+                            "path": "system/fuel_prices.csv"
+                        }
+                    },
+                    "location": "SR",
+                    "id": "SR_Coal"
+                },
+								{
+                    "price": {
+                        "timeseries": {
+                            "header": "ER_Coal",
+                            "path": "system/fuel_prices.csv"
+                        }
+                    },
+                    "location": "ER",
+                    "id": "ER_Coal"
+                },
+                {
+                    "price": {
+                        "timeseries": {
+                            "header": "WR_Coal",
+                            "path": "system/fuel_prices.csv"
+                        }
+                    },
+                    "location": "WR",
+                    "id": "WR_Coal"
                 }
-            ]
+            ],
+            "type": "Coal"
         },
-        {
+                {
             "type": "Uranium",
             "global_data": {
                 "time_interval": "Uranium"
