@@ -35,3 +35,4 @@ Y
 
 ## Limitations/Cautions/Further work needed
 We need to run the model for 52 weeks. Initial test run done for 3 weeks. 
+Time seried Fuel Prices assumed based on single state per region
