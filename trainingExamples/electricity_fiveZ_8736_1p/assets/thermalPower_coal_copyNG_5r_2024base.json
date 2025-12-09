@@ -4,7 +4,6 @@
         "global_data": {
             "timedata": "Coal",
             "fuel_commodity": "Coal",
-            "fuel_start_vertex": "coal_source",
             "co2_sink": "co2_sink",
             "uc": true,
             "elec_constraints": {
@@ -30,53 +29,54 @@
             {
                 "id": "NR_coal",
                 "location": "NR",
-                "existing_capacity": 47000,
+                "existing_capacity": 5951,
                 "can_expand": false,
-                "fuel_consumption": 2.178,
-                "emission_rate": 0.979,
+                "fuel_consumption": 2.373,
+                "emission_rate": 0.98,
                 "fixed_om_cost": 10287,
                 "variable_om_cost": 3.55
             },
+            
             {
                 "id": "NER_coal",
                 "location": "NER",
-                "existing_capacity": 600,
+                "existing_capacity": 949,
                 "can_expand": false,
-                "fuel_consumption": 2.1,
-                "emission_rate": 0.979,
+                "fuel_consumption": 2.55,
+                "emission_rate": 0.99,
                 "fixed_om_cost": 9698,
                 "variable_om_cost": 3.57
             },
             {
                 "id": "ER_coal",
                 "location": "ER",
-                "existing_capacity": 45000,
+                "existing_capacity": 28512,
                 "can_expand": false,
-                "fuel_consumption": 2.3,
-                "emission_rate": 0.979,
+                "fuel_consumption": 2.821,
+                "emission_rate": 0.95,
                 "fixed_om_cost": 9000,
                 "variable_om_cost": 3.50
             },
             {
                 "id": "WR_coal",
                 "location": "WR",
-                "existing_capacity": 97000,
+                "existing_capacity": 74662,
                 "can_expand": false,
-                "fuel_consumption": 2.7,
-                "emission_rate": 0.979,
+                "fuel_consumption": 2.866,
+                "emission_rate": 0.94,
                 "fixed_om_cost": 9291,
                 "variable_om_cost": 4.50
             },
             {
                 "id": "SR_coal",
                 "location": "SR",
-                "existing_capacity": 46000,
+                "existing_capacity": 49894,
                 "can_expand": false,
-                "fuel_consumption": 2.900,
-                "emission_rate": 0.979,
+                "fuel_consumption": 2.606,
+                "emission_rate": 1,
                 "fixed_om_cost": 11000,
                 "variable_om_cost": 4.10
             }
-        ]
+                   ]
     }
 }
